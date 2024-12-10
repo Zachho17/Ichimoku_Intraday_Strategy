@@ -16,8 +16,8 @@ It is worth noting that this strategy does not have any mechanical stop-loss or 
 Based on such set up, this strategy might work best during the regime with medium to long term extension in price action. It might not work during a relatively tight range market, where it might be more exposed to false signal. 
 
 ## File explanation
-### Rule-based(bt)
-This file contains backtesting (bt) that I have executed for a set of xxxJPY pairs. The final output of a summary acts as performance evaluation of the strategy across these pairs.
+### Rule-based(backtest)
+This file contains backtesting that I have executed for a set of xxxJPY pairs. The final output of a summary acts as performance evaluation of the strategy across these pairs.
 
 ### Rule-based(with PnL chart)
 This file contains a backtesting done on one particularly pair. It also includes a graph that indicate accumulated PnL across the backtest period and the drawdown information. 
