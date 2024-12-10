@@ -19,7 +19,7 @@ Based on such set up, this strategy might work best during the regime with mediu
 ### Rule-based(bt)
 This file contains backtesting (bt) that I have executed for a set of xxxJPY pairs. The final output of a summary acts as performance evaluation of the strategy across these pairs.
 
-### Rule-based(add chart)
+### Rule-based(with PnL chart)
 This file contains a backtesting done on one particularly pair. It also includes a graph that indicate accumulated PnL across the backtest period and the drawdown information. 
 
 
