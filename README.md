@@ -15,6 +15,13 @@ It is worth noting that this strategy does not have any mechanical stop-loss or 
 
 Based on such set up, this strategy might work best during the regime with medium to long term extension in price action. It might not work during a relatively tight range market, where it might be more exposed to false signal. 
 
+|| Update 1 (19 Dec 2024)
+I attempted to enhance the results of the strategy by addig a dynamic stop loss. This is in the hope that it can improve execution, further optimise profit/loss ratio and hit rate. Results of backtest and comparisons are saved in the excel spreadsheet
+
+|| Update 2 (23 Dec 2024)
+I attempted to tweak the rule on the cloud. Original strategy evolves around a present of either bullish or bearish cloud for entry. The updated strategy only considers the relative position of price to the cloud, regardless the cloud being bullish or bearish. Together with the enhanced dynamic stop-loss, this combination looks to generate the best profit and loss ratio and highest profit in the backtested period. Results of backtest and comparisons are saved in the excel spreadsheet.
+
+
 ## File explanation
 ### Rule-based(backtest)
 This file contains backtesting that I have executed for a set of xxxJPY pairs. The final output of a summary acts as performance evaluation of the strategy across these pairs.
